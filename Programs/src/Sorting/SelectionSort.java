@@ -8,7 +8,6 @@ public class SelectionSort {
         for (int k : arr) {
             System.out.print(k + " ");
         }
-
         for(int i  = 0; i < arr.length -1 ; i++){
             int minIndex = i ;
             for ( int j = i + 1; j < arr.length ; j++ ) {
@@ -28,8 +27,6 @@ public class SelectionSort {
             }
         }
         System.out.println();
-
-
         System.out.print("Sorted Array :");
 
         for (int j : arr) {
